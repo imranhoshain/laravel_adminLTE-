@@ -25,9 +25,8 @@
 		<link rel="stylesheet" href="{{ asset('admin/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css') }}">
 		<!-- Daterange picker -->
 		<link rel="stylesheet" href="{{ asset('admin/bower_components/bootstrap-daterangepicker/daterangepicker.css') }}">
-
-		  <!-- DataTables -->
-  <link rel="stylesheet" href="{{ asset('admin/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css') }}">
+		<!-- DataTables -->
+		<link rel="stylesheet" href="{{ asset('admin/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css') }}">
 		<!-- bootstrap wysihtml5 - text editor -->
 		<link rel="stylesheet" href="{{ asset('admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}">
 		<!-- Custom Css -->
@@ -405,14 +404,9 @@ Dashboard
 <section class="content">
 <!-- Small boxes (Stat box) -->
 <!-- Main row -->
+<!-- Include your yield file -->
 
-
-	<!-- Include your yield file -->
-	
-	@yield('content')
-
-
-
+@yield('content')
 <!-- /.row (main row) -->
 </section>
 <!-- /.content -->
@@ -627,7 +621,6 @@ $.widget.bridge('uibutton', $.ui.button);
 <script src="{{ asset('admin/bower_components/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
 <!-- FastClick -->
 <script src="{{ asset('admin/bower_components/fastclick/lib/fastclick.js') }}"></script>
-
 <!-- DataTables -->
 <script src="{{ asset('admin/bower_components/datatables.net/js/jquery.dataTables.min.js') }}"></script>
 <script src="{{ asset('admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js') }}"></script>
@@ -639,6 +632,5 @@ $.widget.bridge('uibutton', $.ui.button);
 <script src="{{ asset('admin/dist/js/demo.js') }}"></script>
 <!-- Custom JS -->
 <script src="{{ asset('admin/js/main.js') }}"></script>
-
 </body>
 </html>

@@ -1,4 +1,4 @@
-@extends('admin/layouts/master');
+@extends('admin/layouts/master')
 @section('content')
 <body class="hold-transition skin-blue sidebar-mini">
 	<!-- Main content -->

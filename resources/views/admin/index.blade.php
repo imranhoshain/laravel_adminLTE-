@@ -1,4 +1,4 @@
-@extends('admin/layouts/master');
+@extends('admin/layouts/master')
 
 @section('content')
 
@@ -64,7 +64,7 @@
         </div>
         <!-- ./col -->
       </div>
-      <script>
+      
 
 
 @endsection
